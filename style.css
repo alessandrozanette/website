@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #000;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+nav p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.section {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.links {
+    margin-top: 15px;
+}
+
+.links a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #ddd;
+    transition: all 0.2s ease;
+}
+
+.links a:hover {
+    border-color: #000;
+    background-color: #f9f9f9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    .links a {
+        display: block;
+        margin-right: 0;
+    }
+}
+
+#playlists-section iframe {
+    display: block;
+    margin-bottom: 20px;
+}
+
+#playlists-section iframe:last-child {
+    margin-bottom: 0;
+}
+
+/* Soundcloud embeds */
+.soundcloud-embed {
+    margin-bottom: 20px;
+}
+
+.soundcloud-embed:last-child {
+    margin-bottom: 0;
+}
+
+.soundcloud-embed iframe {
+    display: block;
+    width: 100%;
+}
+
+/* Inline links */
+.inline-link {
+    color: #000;
+    text-decoration: underline;
+}
+
+.inline-link:hover {
+    color: #666;
+}
+
+/* Navigation link styling */
+nav a {
+    color: #666;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+/* Project Items */
+.project-item {
+    padding: 25px 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 15px;
+}
+
+.project-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.project-item h4 {
+    margin-bottom: 8px;
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 600;
+}
+
+.project-item p {
+    margin-bottom: 12px;
+    color: #555;
+    line-height: 1.5;
+    max-width: 800px;
+}
+
+/* Project Links */
+.project-link {
+    display: inline-block;
+    padding: 6px 14px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border: 1.5px solid #ccc;
+    transition: all 0.2s ease;
+    font-weight: 500;
+    font-size: 0.9em;
+    border-radius: 3px;
+}
+
+.project-link:hover {
+    border-color: #000;
+    background-color: #fafafa;
+}
+
+/* Project Links */
+.project-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #ddd;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+.project-link:hover {
+    border-color: #000;
+    background-color: #f9f9f9;
+}
+
+/* Social Icons */
+.social-icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border: 2px solid #ddd;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.social-icons a:hover {
+    border-color: #000;
+    background-color: #f9f9f9;
+}
+
+.social-icons a svg {
+    width: 32px;
+    height: 32px;
+}
